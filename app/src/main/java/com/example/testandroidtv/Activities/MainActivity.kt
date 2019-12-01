@@ -95,7 +95,7 @@ class MainActivity : AppCompatActivity() {
         gridlayout.visibility = View.VISIBLE
         LLfilter.visibility = View.VISIBLE
 
-        gridlayout.setOnItemClickListener { parent, view, position, id ->
+        gridlayout.setOnItemClickListener { _, _, position, _ ->
             Toast.makeText(this@MainActivity, "Click on : " + list[position].name, Toast.LENGTH_LONG).show()
         }
     }
