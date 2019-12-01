@@ -1,9 +1,7 @@
 package com.example.testandroidtv.Adapters
 
 import android.annotation.SuppressLint
-import android.app.Activity
 import android.content.Context
-import android.net.Uri
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -14,7 +12,7 @@ import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.catalog_item.view.*
 
 
-class CustomGridLayoutAdapter(private var context: Context, private var channels: ArrayList<Channel>) : BaseAdapter() {
+class CustomGridLayoutAdapter(private var context: Context, private var channels: MutableList<Channel>) : BaseAdapter() {
 
 
     @SuppressLint("ViewHolder")
@@ -27,7 +25,7 @@ class CustomGridLayoutAdapter(private var context: Context, private var channels
 
         Picasso.with(context)
             .load(channels[position].logo)
-            .fit() // will explain later
+            .error(R.drawable.orange_tv)
             .into(view.IVchannel!!)
 
         return view

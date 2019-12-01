@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">TestAndroidTV</string>
+    <string name="app_name">Orange TV</string>
+    <string name="filter_film">Películas/Cine</string>
+    <string name="filter_channels">Catalogo</string>
 </resources>

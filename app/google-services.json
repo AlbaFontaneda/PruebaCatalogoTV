@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1051410835980",
+    "firebase_url": "https://testandroidtv-6bcef.firebaseio.com",
+    "project_id": "testandroidtv-6bcef",
+    "storage_bucket": "testandroidtv-6bcef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051410835980:android:761db7eedaf0fe390d9c29",
+        "android_client_info": {
+          "package_name": "com.example.testandroidtv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051410835980-4apbc7v1q40qt6klji2rq3aoaig81vjb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeSjP1djg1jPxEeTUG81oi-M1tzonlVFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051410835980-4apbc7v1q40qt6klji2rq3aoaig81vjb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
