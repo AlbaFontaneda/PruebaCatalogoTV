@@ -19,7 +19,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="15dp"
                 android:layout_marginBottom="25dp"
-                android:visibility="gone">
+                android:visibility="invisible">
 
             <ImageView
                     android:layout_width="wrap_content"
@@ -48,6 +48,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginTop="15dp"
                 android:visibility="gone">
 
         </GridView>
